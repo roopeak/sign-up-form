@@ -35,3 +35,17 @@ body {
     width: 100px;
     height: 125px;
 }
+
+.attribute {
+    position: absolute;
+    bottom: 20px;
+    color: white;
+    width: 570px;
+    text-align: center;
+    font-size: 0.8rem;
+    
+}
+
+.attribute, a:link {
+    color: white;
+}
