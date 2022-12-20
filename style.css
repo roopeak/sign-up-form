@@ -85,6 +85,12 @@ label {
     padding-top: 50px;
 }
 
+.message {
+    padding-left: 50px;
+    font-size: 0.7rem;
+    color: red;
+}
+
 .create-account {
     height: calc(100%/3);
 }
