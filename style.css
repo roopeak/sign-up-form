@@ -9,6 +9,8 @@ body {
     flex-direction: row;
     height: 100%;
     font-family: system-ui, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    background-color: #181a1b;
+    color: white;
 }
 
 .background-container {
@@ -25,21 +27,16 @@ body {
 
 .logo-header {
     font-family: norse-bold;
-
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: center;
-
     font-size: 3rem;
     color: white;
-
     position: absolute;
     top: 200px;
-
     width: 570px;
     height: 150px;
-
     background: rgba(0, 0, 0, 0.5);
 }
 
@@ -65,10 +62,8 @@ body {
     display: flex;
     flex-direction: column;
     width: 100%;
-
     font-size: 1.3rem;
     font-weight: bold;
-    /* border: 1px solid red; */
 }
 
 .info {
@@ -78,7 +73,6 @@ body {
     height: calc(100%/3);
     width: 68%;
     padding-left: 50px;
-    /* border: 1px solid red; */
 }
 
 label {
@@ -86,16 +80,13 @@ label {
 }
 
 .fields {
-    height: calc(100%/3);
-
-    /* border: 1px solid red; */
-
+    height: calc(100%/2);
+    box-shadow: 0 5px 20px -2px rgb(144, 143, 143);
+    padding-top: 50px;
 }
 
 .create-account {
     height: calc(100%/3);
-
-    /* border: 1px solid red; */
 }
 
 .fields > p {
@@ -120,6 +111,9 @@ label {
 .form-name-email-password > input,
 .form-last-name-phone-password > input {
     margin-bottom: 20px;
+    border: 0.2px solid black;
+    border-radius: 2px;
+    height: 20px;
 }
 
 .create-account {
@@ -131,7 +125,7 @@ label {
     padding: 10px;
     padding-left: 30px;
     padding-right: 30px;
-    background-color: black;
+    background-color: #0f1920;
     color: white;
     border: 1px solid black;
     border-radius: 8px;
@@ -140,5 +134,3 @@ label {
 .create-account > p {
     font-size: 1.1rem;
 }
-
-/* TODO: Add proper box shadow to fields div! */
