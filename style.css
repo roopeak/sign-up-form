@@ -140,3 +140,7 @@ label {
 .create-account > p {
     font-size: 1.1rem;
 }
+
+.clickable:hover {
+    cursor: pointer;
+}
