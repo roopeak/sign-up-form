@@ -1,4 +1,58 @@
+@font-face {
+	font-family: Norse-Bold;
+	src: url(./fonts/Norse-Bold.otf)
+}
+
 body {
 	display: flex;
 	flex-direction: row;
+	margin: 0;
+}
+
+.background-container {
+	position: relative;
+}
+
+.heading-background {
+	position: absolute;
+	width: 100%;
+	background: black;
+	opacity: 0.6;
+	top: 23rem;
+	width: 100%;
+	height: 265px;
+}
+
+.heading-text {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	position: absolute;
+	color: white;
+	top: 20rem;
+	font-size: 5em;
+	width: 100%;
+	text-align: center;
+	font-family: Norse-Bold;
+}
+
+.heading-text > img {
+	height: 150px;
+}
+
+.background-container > img {
+	height: 1318px;
+}
+
+.credit-text {
+	position: absolute;
+	top: 79rem;
+	color: white;
+	text-align: center;
+	width: 100%;
+}
+
+.credit-text > p > a {
+	color: white;
 }
