@@ -7,6 +7,9 @@ body {
 	display: flex;
 	flex-direction: row;
 	margin: 0;
+	height: 100%;
+	width: 100%;
+	font-family:Arial, Helvetica, sans-serif;
 }
 
 .background-container {
@@ -57,28 +60,111 @@ body {
 	color: white;
 }
 
-.sign-up-window {
-	display: flex;
-	flex-direction: column;
-	justify-content: space-evenly;
-}
-
 .top-text {
 	display: flex;
 	flex-direction: column;
 	justify-content: flex-end;
-	height: 100%;
+	background-color: #f9fafb;
+	height: 400px;
+	padding-bottom: 5rem;
+	padding-left: 3rem;
+	font-size: 25px;
+	font-weight: bolder;
+}
+
+.sign-up-container {
+	height: 270px;
+	box-shadow: 0px 10px 5px lightblue;
+	position: relative;
+}
+
+.sign-up-container > h2 {
+	padding-left: 3rem;
 }
 
 .sign-up-form {
 	display: grid;
 	grid-row: 1fr 1fr;
 	grid-column: 1fr 1fr;
-	height: 200px;
-	border: 1px solid red;
+	height: 250px;
+	padding-left: 3rem;
+}
+
+#last-name-label {
+	padding-left: 15.7rem;
+}
+
+#phone-number-label {
+	padding-left: 18rem;
+}
+
+#confirm-password-label {
+	padding-left: 15.9rem;
+}
+
+#last-name,
+#phone-number,
+#confirm-password {
+	margin-left: 4rem;
+	width: 250px;
+}
+
+#first-name,
+#user-email,
+#user-password {
+	width: 250px;
+}
+
+.second-row-labels,
+.third-row-labels {
+	margin-top: 1rem;
+}
+
+.first-row-labels,
+.second-row-labels,
+.third-row-labels {
+	font-size: 12px;
 }
 
 .bottom-div {
-	height: 500px;
+	height: 200px;
+	padding-left: 3rem;
+	background-color: #f9fafb;
 }
 
+.create-account-btn {
+	background-color: #596D48;
+	border-radius: 5px;
+	border: none;
+	color: white;
+	width: 200px;
+	height: 50px;
+	font-weight: bolder;
+	font-size: 17px;
+}
+
+.button-div {
+	padding-top: 3rem;
+}
+
+.bottom-div > p > a {
+	color: #596D48;
+	font-weight: bolder;
+}
+
+a:link { 
+	text-decoration: none; 
+} 
+
+  a:visited { 
+	text-decoration: none; 
+} 
+
+  a:hover { 
+	text-decoration: none; 
+} 
+
+a:active { 
+	text-decoration: none; 
+}
+  
