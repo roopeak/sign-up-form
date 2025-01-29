@@ -56,3 +56,29 @@ body {
 .credit-text > p > a {
 	color: white;
 }
+
+.sign-up-window {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-evenly;
+}
+
+.top-text {
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-end;
+	height: 100%;
+}
+
+.sign-up-form {
+	display: grid;
+	grid-row: 1fr 1fr;
+	grid-column: 1fr 1fr;
+	height: 200px;
+	border: 1px solid red;
+}
+
+.bottom-div {
+	height: 500px;
+}
+
