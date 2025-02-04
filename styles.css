@@ -90,6 +90,13 @@ body {
 	padding-left: 3rem;
 }
 
+input {
+	height: 25px;
+	border: 1px solid grey;
+	border-radius: 5px;
+	font-size: 15px;
+}
+
 #last-name-label {
 	padding-left: 15.7rem;
 }
